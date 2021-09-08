@@ -13,8 +13,10 @@ function draw(){
   background(225);
 
   ellipse(x, y, 50, 50);
-  fill (255,182,193)
+  fill (255,182,193);
 
+  rect(50, 50, 50, 50);
+  
   x = x + xv;
   y = y + yv;
 
@@ -25,5 +27,5 @@ function draw(){
   if(y <=0 || y >= 400){
     yv = yv * -1;
   }
-
 }
+
